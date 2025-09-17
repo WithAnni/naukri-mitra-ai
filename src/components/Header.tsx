@@ -22,14 +22,14 @@ export const Header = ({ userType, userName }: HeaderProps) => {
 
         {/* Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
+          <a href="/candidate-dashboard" className="text-foreground hover:text-primary transition-colors">
+            Candidate Dashboard
+          </a>
+          <a href="/recruiter-dashboard" className="text-foreground hover:text-primary transition-colors">
+            Recruiter Dashboard
+          </a>
           <a href="#jobs" className="text-foreground hover:text-primary transition-colors">
             Find Jobs
-          </a>
-          <a href="#companies" className="text-foreground hover:text-primary transition-colors">
-            Companies
-          </a>
-          <a href="#resources" className="text-foreground hover:text-primary transition-colors">
-            Resources
           </a>
           <a href="#salary" className="text-foreground hover:text-primary transition-colors">
             Salary Insights
